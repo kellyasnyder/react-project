@@ -1,0 +1,112 @@
+{
+    "products": [
+      {
+        "productId": 1,
+        "item": "Snap-Buttoned Tab Accent Jeans",
+        "price": 77,
+        "type": "pants",
+        "url": "https://i.imgur.com/7VNa1Pc.jpg",
+        "alt": "Snap-Buttoned Tab Accent Jeans",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 2,
+        "item": "Check Print Drawstring Hoodie",
+        "price": 58,
+        "type": "outerwear",
+        "url": "https://i.imgur.com/vepMV9y.jpg",
+        "alt": "Check Print Drawstring Hoodie",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 3,
+        "item": "Wraparound Self-Tie Belt Dress",
+        "price": 83,
+        "type": "dress",
+        "url": "https://i.imgur.com/gQZ9mlR.jpg",
+        "alt": "Wraparound Self-Tie Belt Dress",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 4,
+        "item": "Shoulder Strap Open Top Tote Bag",
+        "price": 15,
+        "type": "bag",
+        "url": "https://i.imgur.com/kOrgwEw.jpg",
+        "alt": "Shoulder Strap Open Top Tote Bag",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 5,
+        "item": "Faux Pearl Accent Earrings",
+        "price": 12,
+        "type": "acc",
+        "url": "https://i.imgur.com/k0Zu5Y8.jpg",
+        "alt": "Faux Pearl Accent Earrings",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 6,
+        "item": "Front Slit Corrugated Midi Skirt",
+        "price": 83,
+        "type": "skirt",
+        "url": "https://i.imgur.com/DGh9mOJ.jpg",
+        "alt": "Front Slit Corrugated Midi Skirt",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 7,
+        "item": "Loose Fit Statement T-Shirt",
+        "price": 22,
+        "type": "top",
+        "url": "https://i.imgur.com/k2EcAOp.jpg",
+        "alt": "Loose Fit Statement T-Shirt",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 8,
+        "item": "Low Square Neck Contrast Stitch Pinafore Dress",
+        "price": 95,
+        "type": "dress",
+        "url": "https://i.imgur.com/y4yRLUr.jpg",
+        "alt": "Low Square Neck Contrast Stitch Pinafore Dress",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 9,
+        "item": "Off-Shoulder Cable Knit Sweater",
+        "price": 113,
+        "type": "outerwear",
+        "url": "https://i.imgur.com/QNDMIHD.jpg",
+        "alt": "Off-Shoulder Cable Knit Sweater",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 10,
+        "item": "Low Pocket Wide-Leg Jeans",
+        "price": 72,
+        "type": "pants",
+        "url": "https://i.imgur.com/wK9Rlk1.jpg",
+        "alt": "Low Pocket Wide-Leg Jeans",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 11,
+        "item": "Rose and Lettering Pendant Drop Earrings",
+        "price": 11,
+        "type": "acc",
+        "url": "https://i.imgur.com/gvuZppL.jpg",
+        "alt": "Rose and Lettering Pendant Drop Earrings",
+        "availability": "In Stock"
+      },
+      {
+        "productId": 12,
+        "item": "Flap Pocket Check Shift Dress",
+        "price": 79,
+        "type": "dress",
+        "url": "https://i.imgur.com/ndEy1vo.jpg",
+        "alt": "Flap Pocket Check Shift Dress",
+        "availability": "In Stock"
+      }
+    ]
+}
