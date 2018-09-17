@@ -1,0 +1,12 @@
+POST::nandamade.com/clothes
+GET::nandamade.com/clothes
+PUT::nandamade.com/clothes
+DELETE::nandamade.com/clothes
+
+POST::nandamade.com/admin/<adminID> 
+PUT::nandamade.com/admin/<adminID> 
+GET::nandamade.com/admin/<adminID> 
+DELETE::nandamade.com/admin/<adminID> 
+
+GET::nandamade.com/contact
+DELETE::nandamade.com/contact 
