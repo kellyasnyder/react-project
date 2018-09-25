@@ -13,19 +13,21 @@ class Clothes extends Component {
         this.filteredProducts = this.filteredProducts.bind(this);
     }
 
-    componentDidMount() {
-       const url = `//api.jsonbin.io/b/5b9ea76d1bf1ca33b06bcfc4/3`;
-       fetch(url)
-        .then(response => response.json())
-        .then(json => {
-           this.setState({
-                products: json.products,
-                filteredProducts: json.products
-           })
-        })
+    componentWillMount() {
+        const url = `http://localhost:4000/products`;
+        fetch(url)
+         .then(response => response.json())
+         // .then(response => console.log(response[0].products))
+         .then(response => 
+            this.setState({
+                 products: response[0].products,
+                 filteredProducts: response[0].products
+            })
+        )
     }
 
     filteredProducts () {
+        console.log(this.state.products);
         this.state.products.map((product) => {
             if (document.getElementById('sortBy').value === 'All') {
                 let products = this.state.products;
@@ -104,6 +106,8 @@ class Clothes extends Component {
             alt={product.alt}
             ></Products>
         ));
+
+        console.log(this.state);
 
 
     return (
