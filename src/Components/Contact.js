@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+  constructor() {
+    super();
+  }
+
       render() {
         return (
           <div className="contact">
@@ -8,22 +12,22 @@ class Contact extends Component {
             <hr style={{borderBottom: '1px #ccc solid', opacity: '0.3'}} />
             <p>We're here to help. Send us an email through the form below and we'll get back to you within 24-48 hours.</p>
 
-            <form onSubmit={this.handleSubmit} method="GET">
+            <form action="http://localhost:4000/form" method="POST">
             <label>
               First Name:<br />
-              <input type="text" className="contactField" />
+              <input type="text" name="firstName" className="contactField" onChange={this.props.onChange}/>
             </label>
             <label>
               Last Name:<br />
-              <input type="text" className="contactField" />
+              <input type="text" name="lastName" className="contactField" onChange={this.props.onChange}/>
             </label>
             <label>
               Email Address:<br />
-              <input type="text" className="contactField" />
+              <input type="text" name="email" className="contactField" onChange={this.props.onChange}/>
             </label>
             <label>
               Comments:<br />
-              <textarea className="contactText" placeholder="Questions, comments, concerns, etc..." />
+              <textarea className="contactText" placeholder="Questions, comments, concerns, etc..." name="comments" onChange={this.props.onChange}/>
             </label>
             <input type="submit" value="Submit" className="submitButton" />
           </form>

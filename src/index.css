@@ -18,12 +18,12 @@ header {
   font-family: 'Lora', sans-serif;
   text-transform: uppercase;
   padding: 0;
-  width: 100%;
-  /* background-color: #F1EDF5; */
+  width: 78%;
+  margin: auto;
   margin-bottom: 30px;
 }
 
-#headerButtons {
+.headerButtons {
   padding-top: 15px;
   display: flex;
   list-style-type: none;
@@ -134,4 +134,34 @@ footer {
 .footerLinks {
   text-align: center;
   padding-top: 35px;
+}
+
+.admin {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.adminCard {
+  display: flex;
+  border: 1px #eee solid;
+  margin: 25px;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.adminDetails {
+  flex-direction: row;
+  width: 18%;
+}
+
+.adminTitle {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.adminButton {
+  background-color: white;
+  border-radius: 10%;
 }
